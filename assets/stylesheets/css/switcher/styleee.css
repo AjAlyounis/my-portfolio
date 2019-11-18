@@ -1,0 +1,402 @@
+body{
+	background: #fff;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	
+
+}
+.navbar .navbar-nav li > a:hover,
+.navbar .navbar-brand:hover {
+  color: #32a6ff;
+}
+.navbar .navbar-nav li.active > a {
+  background: #32a6ff;
+  color: #fff;
+}
+.navbar .navbar-nav li.active > a:hover, .navbar .navbar-nav li.active > a:focus {
+  color: #fff;
+  background: #0090fe;
+}
+.navbar{
+	min-height: 85px;
+}
+.navbar ul li a,.navbar-brand{
+	line-height: 53px;
+	color: #727782;
+	padding-left: 20px;
+}
+.navbar-default{
+	background: #fff;
+}
+.active>a{
+	background: #32a6ff!important;
+	color: #fff!important;
+}
+.navbar-brand{
+	font-family: 'Engagement', cursive;
+	font-size: 30px;
+	 color: #32a6ff !important;
+}
+.bg-sec{
+	background: url(http://husamui.com/demo/leidia/css/images/dot.png), url(http://www.smalltowndjs.com/images/popular-home-plans-2479-best-modern-house-design-plans-3000-x-2076.jpg) no-repeat center ;
+	background-size: cover;
+	width: 100%; 
+	height: 560px;
+	max-width: 100%;	
+}
+nav{
+	margin: 0 !important;
+}
+.bg-sec h1{
+	margin-left: 0;
+	margin: 0;
+	color: #fff;
+	font-size: 50px;
+	font-family: 'Engagement', cursive;
+	padding-top: 140px;
+}
+hr{
+	max-width: 300px;
+	margin-left: 0;
+	margin-bottom: 10px;
+	background: #d0d2d6;
+}
+.bg-sec h5{
+	color: #fff;
+	font-weight: 400;
+	padding-bottom: 25px;
+}
+.bg-sec .btn{
+	background: #32A6F8;
+	color: #fff;
+	border: none;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+.tittle-sec{
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 55px;
+	text-align: center;
+}
+.tittle-sec h1{
+	display: inline-block;
+	font-size: 20px;
+	padding-bottom: 20px;
+	color: #727782;
+	position: relative;
+}
+.tittle-sec h1:after{
+	content: '';
+	position: absolute;
+	top: 105px;
+	left: 10%;
+	width: 150%;
+	border-bottom: 1px #d0d2d6 solid;
+}
+.icon-bath {
+	margin-left: 20px;
+	color: #727782;
+}
+.caption h3 ,p{
+	color: #727782;
+}
+.thumbnail img{
+	border-bottom: 2px solid #32A6F8;
+	width: 100%;
+}
+.thumbnail{
+	border-radius: 10px;
+	margin-bottom: 50px;
+	padding: 0;
+}
+.pro-wgt {
+  margin: 20px 0px;
+  position: relative;
+}
+.pro-wgt .price {
+  position: absolute;
+  background: #32a6ff;
+  color: #fff;
+  right: -9px;
+  top: 42px;
+  padding: 10px 0;
+  width: 100px;
+  text-align: center;
+  border-radius: 0px 10px 0px 0px;
+  font-size: 16px;
+}
+.pro-wgt .price:after, .pro-wgt .price:before {
+  content: '';
+  position: absolute;
+}
+.pro-wgt .price:after {
+  left: -15px;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-bottom: 42px solid #32a6ff;
+}
+.pro-wgt .price:before {
+  background: #00487f;
+  width: 10px;
+  height: 10px;
+  right: 0;
+  bottom: -5px;
+  border-radius: 0 0 5px 0;
+  z-index: -1;
+}
+
+
+.regust-sec{
+	width: 100%;
+}
+.regust-sec{
+	width: 100%;
+	text-align: center;
+}
+.regust-sec h1{
+	text-align: center;
+	color: #727782;
+	margin-bottom: 40px;
+	font-size: 36px;
+
+}
+.regust-sec .btn-primary{
+	background: #32A6F8;
+	border: none;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-bottom: 30px;
+}
+.bg-color{
+	background-color: #f5f7fa;
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+}
+.bg-color h1{
+	padding-bottom: 45px;
+	padding-top: 55px;
+	font-size: 28px;
+	color: #727780;
+	text-align: center;
+	position: relative;
+	
+}
+.bg-color h1:after{
+	content: '';
+	position: absolute;
+	top: 105px;
+	left: 43%;
+	width: 15%;
+	border-bottom: 1px #d0d2d6 solid;
+
+}
+/* carousel */
+#quote-carousel 
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: red;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+  left: -12px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+  right: -12px !important;
+}
+#quote-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+  margin-bottom: -72px;
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: #32A6F8;
+}
+#quote-carousel img
+{
+  width: 100%;
+  height: 100px;	
+  border: 4px #fff solid;
+  margin: -4px 0 0 56px;
+
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+.col-sm-9 h3{
+	color: #32a6ff; 
+
+	margin-bottom: 20px;
+}
+.img-circle{
+	width: 100%;
+	height: 100%;
+}
+.btn-primary{
+	background-color: #32a6ff;
+	border: none;
+}
+.btn-primary:hover{
+	background-color: #32a6ff;
+}
+.btn-Submit{
+	background-color: #32a6ff;
+	border: none;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.text-edit h1{
+	font-family: 'Engagement', cursive;
+	font-size: 30px;
+	 color: #727782 ;
+	 margin-bottom: 10px;	
+}
+.text-edit{
+	color: #727782;
+}
+.col-md-2 ul li a{
+	color: #727782;
+	line-height: 25px;
+	margin-left: -40px;
+	font-size: 14px;
+
+	
+}
+.col-md-2 h6,.col-md-3 h6,p{
+	 margin-bottom: 10px;
+	 color:#727782 	
+}
+
+footer .quick-contact li{
+  position: relative;
+  border-bottom: 1px dotted #727782;
+  padding: 0 0 10px 40px;
+}
+footer .quick-contact {
+  position: absolute;
+  font-size: 22px;
+  left:15px;
+  width: 140px;
+  right: 0;
+
+
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************************************/
+
+@media screen and (max-width: 768px){
+	.navbar ul li a,.navbar-brand
+	{
+	line-height: 20px ;
+	}
+	.navbar
+	{
+	min-height: 60px;
+
+	}
+	.navbar-brand
+	{
+	font-size: 30px;
+	margin-left: 20px;
+	}
+	.regust-sec h1{
+	font-size: 20px;
+
+	}
+	.quote-carousel img
+	{
+	width: 100%;
+	height: 100px;	
+	border: 4px #fff solid;
+	margin: -4px 0 0 35px;
+
+	}
+	#quote-carousel .carousel-indicators {
+	bottom: -20px !important;  
+	}
+	#quote-carousel .carousel-indicators li {
+	display: inline-block;
+	margin: 0px 5px;
+	width: 15px;
+	height: 15px;
+	}
+	#quote-carousel .carousel-indicators li.active {
+	margin: 0px 5px;
+	width: 20px;
+	height: 20px;
+	}
+  #quote-carousel 
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+    }
+    .col-md-2 ul li a{
+	color: #727782;
+	line-height: 25px;
+	margin-left: 0;
+	font-size: 14px;
+
+	
+}
+footer .quick-contact {
+ display: none;
+
+ 
+}
+}
+@media screen and (max-width: 992px){
+footer .quick-contact {
+ display: none;
+}
